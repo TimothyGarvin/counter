@@ -1,0 +1,45 @@
+.container{
+    align-content:center;
+    height:200px;
+    width:200px;
+    outline: solid black 2px;
+    text-align:center;
+}
+
+.main{
+    font-size:20px;
+}
+
+.buttonsTop, .buttonsBottom{
+    margin:10px;
+}
+
+.buttonsTop{
+    background:none;
+    outline: solid black 2px;
+    background-color:cadetblue;
+    border:none;
+    border-radius:20px;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+.buttonsTop:hover{
+    background-color:rgb(124, 206, 209);
+    outline: solid white 2px;
+}
+
+.buttonsBottom{
+    background:none;
+    outline: solid black 2px;
+    background-color:coral;
+    border:none;
+    border-radius:20px;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+.buttonsBottom:hover{
+    background-color:rgb(255, 169, 138);
+    outline: solid white 2px;
+}
